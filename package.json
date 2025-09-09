@@ -1,0 +1,29 @@
+{
+  "name": "movies-and-tv-shows-recaps-maker-hub",
+  "private": false,
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "yaskovbs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yaskovbs/Movies-And-TV-Shows-Recaps-Maker-Hub.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@google/genai": "1.17.0",
+    "react": "^19.0.0",
+    "@ffmpeg/ffmpeg": "0.12.10",
+    "@ffmpeg/util": "^0.12.1",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
