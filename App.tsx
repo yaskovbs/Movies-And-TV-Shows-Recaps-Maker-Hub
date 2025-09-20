@@ -4,6 +4,7 @@ import { FileUpload } from './components/FileUpload';
 import { RecapControls } from './components/RecapControls';
 import { OutputDisplay } from './components/OutputDisplay';
 import { AdBanner } from './components/AdBanner';
+import { InlineAd } from './components/InlineAd';
 import { generateRecapScript } from './services/geminiService';
 import { useTextToSpeech } from './hooks/useTextToSpeech';
 import { loadFFmpeg, processVideo } from './services/ffmpegService';
@@ -18,7 +19,6 @@ interface Server {
   maxFileSize: number;
   type: 'free' | 'paid' | 'private';
 }
-
 
 const App: React.FC = () => {
   const [videoFile, setVideoFile] = useState<File | null>(null);
@@ -70,7 +70,7 @@ const App: React.FC = () => {
       if(objectUrl) URL.revokeObjectURL(objectUrl);
     }
   }, [videoFile]);
-  
+
   useEffect(() => {
     localStorage.setItem('recapLength', recapLength.toString());
   }, [recapLength]);
@@ -91,7 +91,6 @@ const App: React.FC = () => {
           if (objectUrl) URL.revokeObjectURL(objectUrl);
       }
   }, [processedVideoUrl]);
-
 
   const handleFileChange = (file: File | null) => {
     setVideoFile(file);
@@ -237,6 +236,9 @@ const App: React.FC = () => {
               )}
             </div>
           </div>
+
+          {/* Inline advertisement between main content and server settings */}
+          <InlineAd />
         </main>
       )}
 

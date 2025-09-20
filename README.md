@@ -5,8 +5,13 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8.2-blue)](https://www.typescriptlang.org/)
 
 > **[See it live on GitHub](https://github.com/yaskovbs/Movies-And-TV-Shows-Recaps-Maker-Hub)**
+<<<<<<< HEAD
 
 An AI-powered web application for creating video recaps, summaries, and voice-over scripts from movies and TV shows using Google Gemini AI and FFmpeg.wasm.
+=======
+>
+An AI-powered web application for creating professional video recaps, summaries, and voice-over scripts from movies and TV shows using Google Gemini AI and FFmpeg.wasm. The application provides comprehensive video processing capabilities with an intuitive interface designed for content creators and media enthusiasts.
+>>>>>>> master
 
 ## Features
 
@@ -63,6 +68,24 @@ An AI-powered web application for creating video recaps, summaries, and voice-ov
 - 🎨 Custom templates for social media
 - 🌐 Hebrew language support
 
+<<<<<<< HEAD
+=======
+## AdSense Compliance & Monetization
+
+This application is fully compliant with Google AdSense policies and includes strategic ad placement for sustainable monetization:
+
+- ✅ **High-Quality Content**: Professional video processing tool with substantial user engagement
+- ✅ **Strategic Ad Placement**: Non-intrusive advertising that complements the user experience
+- ✅ **Responsive Design**: Ads adapt to all screen sizes and devices
+- ✅ **Google AdSense Integration**: Direct implementation with responsive ad units
+- ✅ **Privacy Compliance**: Respects user privacy and data handling best practices
+
+Ad placements include:
+- **Header/Footer Banners**: Professional branding areas
+- **Inline Content Ads**: Strategically placed between main content sections
+- **Mobile-Optimized**: All ads are fully responsive for mobile devices
+
+>>>>>>> master
 ## Tech Stack
 
 - **Frontend**: React + TypeScript + Vite
