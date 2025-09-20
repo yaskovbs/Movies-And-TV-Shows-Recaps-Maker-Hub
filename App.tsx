@@ -20,7 +20,6 @@ interface Server {
   type: 'free' | 'paid' | 'private';
 }
 
-
 const App: React.FC = () => {
   const [videoFile, setVideoFile] = useState<File | null>(null);
   const [youtubeUrl, setYoutubeUrl] = useState<string>('');
@@ -71,7 +70,7 @@ const App: React.FC = () => {
       if(objectUrl) URL.revokeObjectURL(objectUrl);
     }
   }, [videoFile]);
-  
+
   useEffect(() => {
     localStorage.setItem('recapLength', recapLength.toString());
   }, [recapLength]);
@@ -92,7 +91,6 @@ const App: React.FC = () => {
           if (objectUrl) URL.revokeObjectURL(objectUrl);
       }
   }, [processedVideoUrl]);
-
 
   const handleFileChange = (file: File | null) => {
     setVideoFile(file);
