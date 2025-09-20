@@ -1,0 +1,5 @@
+{
+  "name": "Movies-And-TV-Shows-Recaps-Maker-Hub",
+  "description": "An AI-powered web application to generate concise recaps and scripts for movies and TV shows. Upload a video, specify the desired recap length, and instantly get a script with a high-quality text-to-speech voice-over.",
+  "requestFramePermissions": []
+}
